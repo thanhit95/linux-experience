@@ -46,7 +46,7 @@ Remove unwanted fonts:
 
 Chosen method: ibus-bamboo.
 
-Follow instruction from this link:
+Follow instructions from this link:
 
 <https://github.com/BambooEngine/ibus-bamboo>.
 

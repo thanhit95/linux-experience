@@ -20,7 +20,7 @@ Note: Restart (or logout) to take effects.
 
 ## Step 02. Install oh-my-zsh
 
-Follow instruction from this url:
+Follow instructions from this url:
 
 <https://github.com/ohmyzsh/ohmyzsh>
 
