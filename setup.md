@@ -1,8 +1,14 @@
 # MY PERSONAL LINUX ENVIRONMENT SETUP
 
-## CONTENT
+## DESCRIPTION
+
+My personal Linux environment setup for a new PC. It might be useful for you.
 
 Depend on each section, there are some specific files in this repo which guide you in detail.
+
+&nbsp;
+
+## CONTENTS
 
 ### RIGHT AFTER OS SETUP
 
