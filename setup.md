@@ -1,16 +1,5 @@
 # MY PERSONAL LINUX ENVIRONMENT SETUP
 
-## DESCRIPTION
-
-My personal Linux environment setup.
-
-Author: Thanh Nguyen
-
-- Email: thanh.it1995@gmail.com
-- Facebook: <https://www.facebook.com/thanh.it95>
-
----
-
 ## CONTENT
 
 Depend on each section, there are some specific files in this repo which guide you in detail.
@@ -187,7 +176,7 @@ UTILITIES:
 
 ### SHELL: ZSH
 
-Follow instructions from [shell-zsh.md](shell-zsh.md).
+Follow instructions from [setup-zsh.md](setup-zsh.md).
 
 &nbsp;
 
