@@ -187,7 +187,7 @@ UTILITIES:
 
 ### SHELL: ZSH
 
-Update later.
+Follow instructions from [shell-zsh.md](shell-zsh.md).
 
 &nbsp;
 
