@@ -42,6 +42,7 @@ Update later.
 Goto File ⟶ Preferences ⟶ Settings ⟶ User Settings.
 
 Search for and check config "Files: Trim Trailing Whitespace".
+
 Or edit config json file:
 
 ```text
@@ -68,13 +69,14 @@ Or edit config json file:
 
 ### Eclipse
 
-- Settings (menu Windows ⟶ Preferences):
-  - General ⟶ Appearance ⟶ Colors and Fonts
-  - Java ⟶ Code Style ⟶ Formatter
-    - Tab policy: Spaces only
-    - Indentation size: 4
-    - Tab size: 4
-  - Java ⟶ Editor ⟶ Save Actions
-    - Check "Additional actions".
-    - Click on button "Configure..."
-      - Code Organizing ⟶ Formatter: Check "Remove trailing whitespace".
+Goto menu Windows ⟶ Preferences:
+
+- General ⟶ Appearance ⟶ Colors and Fonts
+- Java ⟶ Code Style ⟶ Formatter
+  - Tab policy: Spaces only
+  - Indentation size: 4
+  - Tab size: 4
+- Java ⟶ Editor ⟶ Save Actions
+  - Check "Additional actions".
+  - Click on button "Configure..."
+    - Code Organizing ⟶ Formatter: Check "Remove trailing whitespace".
