@@ -188,7 +188,7 @@ Follow instructions from [setup-zsh.md](setup-zsh.md).
 
 ### DEVELOPMENT LIBRARIES AND TOOLS
 
-Update later.
+Read [setup-dev.md](setup-dev.md).
 
 &nbsp;
 
