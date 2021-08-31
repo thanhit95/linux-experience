@@ -49,9 +49,9 @@ Or edit config json file:
 "files.trimTrailingWhitespace": true
 ```
 
-#### Config: Editor font and terminal font
+#### Miscellaneous config
 
-&nbsp;
+- Editor font and terminal font.
 
 #### Extensions
 
