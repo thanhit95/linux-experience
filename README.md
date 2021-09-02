@@ -11,8 +11,8 @@ Author: Thanh Nguyen
 
 ## ENVIRONMENT SETUP
 
-Read [setup/README.md](setup/README.md).
+Directory [setup](setup/).
 
 ## COMMANDS
 
-Have a look at directory ```cmd```.
+Directory [cmd](cmd/).

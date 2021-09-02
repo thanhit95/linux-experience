@@ -61,11 +61,14 @@ Goto system settings:
 
 Note: Goto system settings.
 
+- Ctrl + Alt + T: terminal.
 - Super + E: file manager (or home folder).
 - Super + W: web browser.
+- Super + T: text editor.
 - Super + D: hide all windows.
 - Super + I: system settings.
-- Alt + Tab: switch between windows (instead of the default way: switch between applications).
+- Alt + Tab: switch between windows.
+- Super + Tab: switch between applications.
 
 &nbsp;
 
