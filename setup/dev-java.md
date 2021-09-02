@@ -1,4 +1,4 @@
-# JAVA JDK INSTALLATION
+# SETUP: JAVA JDK
 
 ## STANDARD METHOD
 
@@ -75,6 +75,6 @@ OpenJDK 64-Bit Server VM (build 16.0.2+7-67, mixed mode, sharing)
 
 Tired of making ```java``` public using manual method, or tired of switching between many JDKs? Debian-based distros support command ```update-alternatives``` that might make your life easier.
 
-Take a look at [cmd/update-alternatives.md](cmd/update-alternatives.md)
+Take a look at [/cmd/update-alternatives.md](/cmd/update-alternatives.md).
 
 Do not forget to make ```javac``` public, too.

@@ -182,7 +182,7 @@ UTILITIES:
 
 ### SHELL: ZSH
 
-Follow instructions from [zsh.md](zsh.md).
+Read [zsh.md](zsh.md).
 
 &nbsp;
 
