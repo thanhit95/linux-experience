@@ -182,13 +182,13 @@ UTILITIES:
 
 ### SHELL: ZSH
 
-Follow instructions from [setup-zsh.md](setup-zsh.md).
+Follow instructions from [zsh.md](zsh.md).
 
 &nbsp;
 
 ### DEVELOPMENT LIBRARIES AND TOOLS
 
-Read [setup-dev.md](setup-dev.md).
+Read [dev.md](dev.md).
 
 &nbsp;
 

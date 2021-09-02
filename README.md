@@ -11,4 +11,4 @@ Author: Thanh Nguyen
 
 ## ENVIRONMENT SETUP
 
-Read [setup.md](setup.md).
+Read [setup/README.md](setup/README.md).
