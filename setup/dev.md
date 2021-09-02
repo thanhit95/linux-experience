@@ -8,21 +8,23 @@
 
 ```shell
 sudo apt install gcc g++ gdb make
+# or
+sudo apt install build-essential
 ```
-
-Extra libs:
-
-```shell
-sudo apt install libboost-all-dev
-sudo apt install libpoco-dev
-```
-
-&nbsp;
 
 #### Manjaro
 
 ```shell
 sudo pacman -S gcc gdb make
+```
+
+#### General
+
+Extra libs:
+
+```text
+libboost-all-dev
+libpoco-dev
 ```
 
 &nbsp;
