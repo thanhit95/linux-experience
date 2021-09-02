@@ -8,7 +8,7 @@
 sudo apt-get install zsh
 ```
 
-After installing, I might make zsh the default shell:
+After installing, we might make zsh the default shell:
 
 ```shell
 sudo chsh -s $(which zsh)

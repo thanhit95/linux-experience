@@ -87,7 +87,7 @@ For GNOME: Execute app "Extensions" and config as my taste.
 
 For XFCE:
 
-To change font weight of theme, especial Thunar file manager, I need to edit or create file: ```~/.config/gtk-3.0/gtk.css```.
+To change font weight of theme, especial Thunar file manager, we need to edit or create file: ```~/.config/gtk-3.0/gtk.css```.
 
 ```text
 * { font-weight: 500; }
@@ -105,9 +105,9 @@ Homepage: <https://peterlevi.com/variety>.
 
 **Notes for Manjaro GNOME:**
 
-To run Variety correctly, I run it in terminal to see all output messages.
+To run Variety correctly, we run it in terminal to see all output messages.
 
-Before installing Variety, I must install its dependencies:
+Before installing Variety, we must install its dependencies:
 
 ```shell
 sudo pacman -S python-pip
@@ -131,7 +131,7 @@ or
 env GDK_BACKEND=x11 variety
 ```
 
-To add environment variable ```GDK_BACKEND``` permanently, please take a look at my note of environment variables. Basically, I add the variable in ```.bash_profile``` (bash) or ```.zprofile``` (zsh).
+To add environment variable ```GDK_BACKEND``` permanently, please take a look at my note of environment variables. Basically, we add the variable in ```.bash_profile``` (bash) or ```.zprofile``` (zsh).
 
 &nbsp;
 
