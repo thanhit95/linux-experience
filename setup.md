@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-My personal Linux environment setup for a new PC. It might be useful for you.
+My personal Linux environment setup for a new computer. It might be useful for you.
 
 Depend on each section, there are some specific files in this repo which guide you in detail.
 
