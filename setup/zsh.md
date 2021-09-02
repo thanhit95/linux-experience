@@ -28,23 +28,23 @@ Follow instructions from this url:
 
 ## Step 03. Install powerlevel10k theme
 
-Note: Theme directory location: ```~/.oh-my-zsh/custom/themes```.
+Note: Theme directory location: `~/.oh-my-zsh/custom/themes`.
 
 Clone repo into theme directory location: <https://github.com/romkatv/powerlevel10k>.
 
-After cloning, add this line into ```~/.zshrc```:
+After cloning, add this line into `~/.zshrc`:
 
 ```text
 source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 ```
 
-Note: This line must below the line ```source $ZSH/oh-my-zsh.sh```.
+Note: This line must below the line `source $ZSH/oh-my-zsh.sh`.
 
 &nbsp;
 
 ## Step 04. Install plugins
 
-Note: Plugin directory location: ```~/.oh-my-zsh/custom/plugins```.
+Note: Plugin directory location: `~/.oh-my-zsh/custom/plugins`.
 
 ### List of plugins
 
@@ -56,11 +56,11 @@ Note: Plugin directory location: ```~/.oh-my-zsh/custom/plugins```.
 
 <https://github.com/zsh-users/zsh-syntax-highlighting>
 
-Note that you should not add line ```source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh``` into ```~/.zshrc```.
+Note that you should not add line `source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` into `~/.zshrc`.
 
 ### Notes
 
-Final plugin line in ```~/.zshrc```:
+Final plugin line in `~/.zshrc`:
 
 ```text
 plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)

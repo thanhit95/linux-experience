@@ -77,12 +77,12 @@ Note: Goto system settings.
 Theme:
 
 - Directory location:
-  - Global: ```/usr/share/themes```
-  - Local: ```~/.themes```
+  - Global: `/usr/share/themes`
+  - Local: `~/.themes`
 
 - Icons:
-  - Global: ```/usr/share/icons```
-  - Local: ```~/.icons```
+  - Global: `/usr/share/icons`
+  - Local: `~/.icons`
 
 For GNOME: Execute app "Extensions" and config as my taste.
 
@@ -90,7 +90,7 @@ For GNOME: Execute app "Extensions" and config as my taste.
 
 For XFCE:
 
-To change font weight of theme, especial Thunar file manager, we need to edit or create file: ```~/.config/gtk-3.0/gtk.css```.
+To change font weight of theme, especial Thunar file manager, we need to edit or create file: `~/.config/gtk-3.0/gtk.css`.
 
 ```text
 * { font-weight: 500; }
@@ -129,12 +129,12 @@ To fix this, for an example - Variety wallpaper changer, run it with an environm
 ```shell
 GDK_BACKEND=x11 variety
 
-or
+# or
 
 env GDK_BACKEND=x11 variety
 ```
 
-To add environment variable ```GDK_BACKEND``` permanently, please take a look at my note of environment variables. Basically, we add the variable in ```.bash_profile``` (bash) or ```.zprofile``` (zsh).
+To add environment variable `GDK_BACKEND` permanently, please take a look at my note of environment variables. Basically, we add the variable in `.bash_profile` (bash) or `.zprofile` (zsh).
 
 &nbsp;
 
