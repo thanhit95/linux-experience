@@ -29,7 +29,7 @@ sudo pacman -S gcc gdb make
 
 ### JAVA
 
-Update later.
+Read [dev-java.md](dev-java.md).
 
 ---
 
