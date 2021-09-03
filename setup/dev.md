@@ -57,15 +57,22 @@ Or edit config json file:
 
 #### Extensions
 
+- Theme:
+  - teabyii - Ayu
+  - faceair - Ayu One Dark
+  - binaryify - One Dark Pro
+  - yomed - Dracula Soft Syntax Theme
 - Markdown:
-  - yzhang - Markdown All in One.
-  - shd101wyy - Markdown Preview Enhanced.
-  - David Anson - markdownlint.
-- Front-end:
-  - ritwickdey - Live Server.
-  - ms-vscode - Live Preview.
+  - yzhang - Markdown All in One
+  - shd101wyy - Markdown Preview Enhanced
+  - David Anson - markdownlint
+- Web:
+  - ritwickdey - Live Server
+  - ms-vscode - Live Preview
 - Miscellaneous:
-  - ms-vscode - Hex Editor.
+  - ms-vscode - Hex Editor
+  - trybick - Terminal Zoom
+  - tomoki1207 - vscode-pdf
 
 &nbsp;
 
