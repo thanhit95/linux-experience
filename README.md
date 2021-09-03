@@ -15,4 +15,4 @@ Directory [setup](setup/).
 
 ## COMMANDS
 
-Directory [cmd](cmd/).
+Directory [cmd-app](cmd-app/).
