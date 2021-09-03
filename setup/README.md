@@ -8,7 +8,7 @@ Depend on each section, there are some specific files in this repo which guide y
 
 &nbsp;
 
-## CONTENTS
+## CONTENT
 
 ### RIGHT AFTER OS SETUP
 
@@ -48,7 +48,7 @@ Chosen method: ibus-bamboo.
 
 Follow instructions from this link:
 
-<https://github.com/BambooEngine/ibus-bamboo>.
+<https://github.com/BambooEngine/ibus-bamboo>
 
 Goto system settings:
 
@@ -195,7 +195,11 @@ Read [dev.md](dev.md).
 
 &nbsp;
 
-### POST CONFIGURATION: FILE MANAGER
+### POST CONFIGURATION
 
-- Add peazip to context menu.
-- Add VS Code to context menu.
+- Web browser:
+  - Home page: turn off unwanted things.
+  - Languages ⟶ spell checking: turn off.
+- File manager:
+  - Add peazip to context menu.
+  - Add VS Code to context menu.
