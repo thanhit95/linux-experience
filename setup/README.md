@@ -76,11 +76,11 @@ Note: Goto system settings.
 
 Theme:
 
-- Directory location:
+- Theme directory location:
   - Global: `/usr/share/themes`
   - Local: `~/.themes`
 
-- Icons:
+- Icon directory location:
   - Global: `/usr/share/icons`
   - Local: `~/.icons`
 
