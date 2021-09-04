@@ -1,6 +1,6 @@
 # COMMAND: UPDATE-ALTERNATIVES
 
-## Description
+## DESCRIPTION
 
 `update-alternatives` is a symbolic link management system for Linux. It is supported by default in Debian-based distros.
 
@@ -10,7 +10,7 @@ In this article, supposed that we install Java JDK and make `java` global execut
 
 &nbsp;
 
-## List of commands
+## COMMANDS
 
 ### 1. Display all alternatives of `java` command
 
@@ -62,7 +62,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 &nbsp;
 
-## What does `update-alternatives --install` do?
+## WHAT DOES `update-alternatives --install` DO?
 
 - Firstly, it creates a symbolic link to original execute JDK in `/etc/alternatives`.
   - For an example, it creates `/etc/alternatives/java` that links to `/home/vmadmin/Downloads/jdk-16.0.2/bin/java`.
