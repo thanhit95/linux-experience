@@ -9,10 +9,8 @@ Author: Thanh Nguyen
 - Email: thanh.it1995@gmail.com
 - Facebook: <https://www.facebook.com/thanh.it95>
 
-## ENVIRONMENT SETUP
+## CONTENT
 
-Directory [setup](setup/).
-
-## COMMANDS
-
-Directory [cmd-app](cmd-app/).
+- [Environment setup](setup/)
+- [Commands](cmd-app/)
+- [Aricles](/article/)
