@@ -164,10 +164,22 @@ OFFICE:
 
 - Libre Office.
 
-MULTIMEDIA & GRAPHICS:
+GRAPHICS:
 
-- VLC media player.
 - GIMP.
+
+AUDIO AND VIDEO:
+
+- Player:
+  - VLC media player.
+- Audio:
+  - [Audacity](https://www.audacityteam.org).
+- Video:
+  - [AviDemux](http://avidemux.sourceforge.net).
+  - [MKVToolNix](https://mkvtoolnix.download).
+  - Inviska MKV Extract.
+- Lib:
+  - ffmpeg.
 
 UTILITIES:
 
