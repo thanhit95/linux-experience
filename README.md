@@ -13,4 +13,4 @@ Author: Thanh Nguyen
 
 - [Environment setup](setup/)
 - [Commands](cmd-app/)
-- [Aricles](/article/)
+- [Articles](article/)
