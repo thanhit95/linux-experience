@@ -72,6 +72,7 @@ Or edit config json file:
 - Miscellaneous:
   - ms-vscode - Hex Editor
   - trybick - Terminal Zoom
+  - MoshFeu - Compare Folders
   - tomoki1207 - vscode-pdf
 
 &nbsp;
