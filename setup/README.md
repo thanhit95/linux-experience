@@ -171,15 +171,16 @@ GRAPHICS:
 AUDIO AND VIDEO:
 
 - Player:
-  - VLC media player.
+  - VLC media player
 - Audio:
-  - [Audacity](https://www.audacityteam.org).
+  - [Audacity](https://www.audacityteam.org)
+  - [Kid3 Audio Tagger](https://kid3.kde.org/)
 - Video:
-  - [AviDemux](http://avidemux.sourceforge.net).
-  - [MKVToolNix](https://mkvtoolnix.download).
-  - Inviska MKV Extract.
+  - [AviDemux](http://avidemux.sourceforge.net)
+  - [MKVToolNix](https://mkvtoolnix.download)
+  - Inviska MKV Extract
 - Lib:
-  - ffmpeg.
+  - ffmpeg
 
 UTILITIES:
 
