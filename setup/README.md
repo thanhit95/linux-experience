@@ -218,6 +218,9 @@ Read [dev.md](dev.md).
   - Note: If you use Nautilus, you should install `filemanager-actions`.
   - Add peazip to context menu.
   - Add VS Code to context menu.
+    - `filemanager-actions` command:
+      - Path: `code`
+      - Param: `%B`
 
 - Manjaro:
   - Avoid frustrating when user enters incorrect password for many times.
