@@ -14,13 +14,13 @@ Depend on each section, there are some specific files in this repo which guide y
 
 Update package information from Internet.
 
-- Ubuntu:
+Ubuntu:
 
 ```shell
 sudo apt update
 ```
 
-- Manjaro:
+Manjaro:
 
 ```shell
 sudo pacman -Syy
@@ -69,6 +69,10 @@ Note: Goto system settings.
 - Super + I: system settings.
 - Alt + Tab: switch between windows.
 - Super + Tab: switch between applications.
+- Super + Left: View split on left.
+- Super + Right: View split on right.
+- Super + Up: Maximize window.
+- Alt + Space: Activate the window menu.
 
 &nbsp;
 
@@ -100,6 +104,29 @@ XfdesktopIconView.view { font-weight: 500 }
 
 &nbsp;
 
+### X11 COMPATIBILITY IN WAYLAND
+
+A lot of apps that prefer running in X11 in the old days, so if they run in Wayland then some errors would occur.
+
+To make X11 compatible in Wayland in system-wide settings:
+
+- Edit `/etc/profile`
+- Add `export GDK_BACKEND=x11`
+
+If you use `zsh`, make sure `/etc/zsh/zprofile` gets source from `/etc/profile`.
+
+Or, if you only want to make changes in user-wide settings:
+
+- Edit `~/.profile`
+- Add `export GDK_BACKEND=x11`
+
+A note for the shell, make sure that:
+
+- bash: `.bash_profile` gets source from `~/.profile`
+- zsh: `.zprofile` gets source from `~/.profile`
+
+&nbsp;
+
 ### DESKTOP WALLPAPERS
 
 App: Variety.
@@ -116,25 +143,12 @@ Before installing Variety, we must install its dependencies:
 sudo pacman -S python-pip
 ```
 
-&nbsp;
+Variety might not display its icon on topbar, to fix this:
 
-### MANJARO GNOME: FIX TOPBAR APPINDICATOR
-
-In Manjaro GNOME, apps might not display its icon on topbar (such as Variety, caffeine).
-
-Before fixing the issue, make sure the GNOME extension "AppIndicator" was turned on.
-
-To fix this, for an example - Variety wallpaper changer, run it with an environment variable using this command:
-
-```shell
-GDK_BACKEND=x11 variety
-
-# or
-
-env GDK_BACKEND=x11 variety
-```
-
-To add environment variable `GDK_BACKEND` permanently, please take a look at my note of environment variables. Basically, we add the variable in `.bash_profile` (bash) or `.zprofile` (zsh).
+- Make sure the GNOME extension "AppIndicator" was turned on.
+- Run Variety with `GDK_BACKEND=x11`:
+  - `GDK_BACKEND=x11 variety`, or
+  - `env GDK_BACKEND=x11 variety`
 
 &nbsp;
 
