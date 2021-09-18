@@ -54,6 +54,8 @@ Note: This line must below the line `source $ZSH/oh-my-zsh.sh`.
 
 Note: Plugin directory location: `~/.oh-my-zsh/custom/plugins`.
 
+Download (git clone) plugins to the above location, edit the line start with `plugins=` in `~/.zshrc`. Done!
+
 #### List of plugins
 
 ##### zsh-autosuggestions
