@@ -108,24 +108,7 @@ XfdesktopIconView.view { font-weight: 500 }
 
 ### X11 COMPATIBILITY IN WAYLAND
 
-A lot of apps that prefer running in X11 in the old days, so if they run in Wayland then some errors would occur.
-
-To make X11 compatible in Wayland in system-wide settings:
-
-- Edit `/etc/profile`
-- Add `export GDK_BACKEND=x11`
-
-If you use `zsh`, make sure `/etc/zsh/zprofile` gets source from `/etc/profile`.
-
-Or, if you only want to make changes in user-wide settings:
-
-- Edit `~/.profile`
-- Add `export GDK_BACKEND=x11`
-
-A note for the shell, make sure that:
-
-- bash: `.bash_profile` gets source from `~/.profile`
-- zsh: `.zprofile` gets source from `~/.profile`
+Read [x11-compatibility-in-wayland.md](/article/x11-compatibility-in-wayland.md).
 
 &nbsp;
 
