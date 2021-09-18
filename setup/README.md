@@ -193,6 +193,7 @@ UTILITIES:
 - Screen recorder: OBS, vokoscreenNG.
 - wine & winetricks.
 - Clean disk: bleachbit.
+- Nautilus context menu manager: filemanager-actions.
 
 &nbsp;
 
@@ -214,5 +215,6 @@ Read [dev.md](dev.md).
   - Home page: turn off unwanted things.
   - Languages ⟶ spell checking: turn off.
 - File manager:
+  - Note: If you use Nautilus, you should install ```filemanager-actions```.
   - Add peazip to context menu.
   - Add VS Code to context menu.
