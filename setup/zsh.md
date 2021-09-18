@@ -12,8 +12,16 @@ From [howtogeek](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you
 
 ### Step 01. Install zsh
 
+Ubuntu:
+
 ```shell
-sudo apt-get install zsh
+sudo apt install zsh
+```
+
+Manjaro:
+
+```shell
+sudo pacman -S zsh
 ```
 
 After installing, we might make zsh the default shell:
