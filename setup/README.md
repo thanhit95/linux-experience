@@ -214,7 +214,14 @@ Read [dev.md](dev.md).
 - Web browser:
   - Home page: turn off unwanted things.
   - Languages ⟶ spell checking: turn off.
+
 - File manager:
-  - Note: If you use Nautilus, you should install ```filemanager-actions```.
+  - Note: If you use Nautilus, you should install `filemanager-actions`.
   - Add peazip to context menu.
   - Add VS Code to context menu.
+
+- Manjaro:
+  - Avoid frustrating when user enters incorrect password for many times.
+    - First, have a look at the output from `cat /etc/pam.d/login` to make sure that you use `pam_faillock.so`.
+    - Edit file `/etc/security/faillock.conf`
+    - Set `deny = 0`
