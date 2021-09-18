@@ -193,6 +193,9 @@ UTILITIES:
 - wine & winetricks.
 - Clean disk: bleachbit.
 - Nautilus context menu manager: filemanager-actions.
+- Locate file fast: mlocate.
+  - Run command: `locate file-name`.
+  - Note: `sudo updatedb` first.
 
 &nbsp;
 

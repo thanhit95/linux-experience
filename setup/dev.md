@@ -82,6 +82,7 @@ Or edit config json file:
 Goto menu Windows ⟶ Preferences:
 
 - General ⟶ Appearance ⟶ Colors and Fonts
+- General ⟶ Editors ⟶ Text Editors ⟶ Spelling
 - Java ⟶ Code Style ⟶ Formatter
   - Tab policy: Spaces only
   - Indentation size: 4
