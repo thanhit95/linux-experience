@@ -64,15 +64,17 @@ Note: Goto system settings.
 - Ctrl + Alt + T: terminal.
 - Super + E: file manager (or home folder).
 - Super + W: web browser.
-- Super + T: text editor.
+- Super + T: text editor (mousepad).
+- Super + Y: text editor (gedit).
+- Ctrl + Shift + Esc: launch system monitor.
 - Super + D: hide all windows.
 - Super + I: system settings.
 - Alt + Tab: switch between windows.
 - Super + Tab: switch between applications.
-- Super + Left: View split on left.
-- Super + Right: View split on right.
-- Super + Up: Maximize window.
-- Alt + Space: Activate the window menu.
+- Super + Left: view split on left.
+- Super + Right: view split on right.
+- Super + Up: maximize window.
+- Alt + Space: activate the window menu.
 
 &nbsp;
 
