@@ -181,6 +181,11 @@ AUDIO AND VIDEO:
 - Lib:
   - ffmpeg
 
+DISK DRIVE:
+
+- GParted
+- baobab (Disk Usage Analyzer)
+
 UTILITIES:
 
 - PDF reader: Okular, Evince.
