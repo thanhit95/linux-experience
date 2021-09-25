@@ -188,19 +188,19 @@ DISK DRIVE:
 
 UTILITIES:
 
-- PDF reader: Okular, Evince.
-- Photos: gThumb.
-- System info: gnome-system-monitor, htop, neofetch.
-- Archiver: peazip, unrar.
-- Prevent computer from sleeping: caffeine.
-- Remote desktop: AnyDesk.
-- Screen recorder: OBS, vokoscreenNG.
-- wine & winetricks.
-- Clean disk: bleachbit.
-- Nautilus context menu manager: filemanager-actions.
-- Locate file fast: mlocate.
-  - Run command: `locate file-name`.
-  - Note: `sudo updatedb` first.
+- PDF reader: Okular, Evince
+- Photos: gThumb
+- System info: gnome-system-monitor, htop, neofetch
+- Archiver: peazip, unrar
+- Prevent computer from sleeping: caffeine
+- Remote desktop: AnyDesk
+- Screen recorder: OBS, vokoscreenNG
+- wine & winetricks
+- Clean disk: bleachbit
+- Nautilus context menu manager: filemanager-actions
+- Locate file fast: mlocate
+  - Run command: `locate file-name`
+  - Note: `sudo updatedb` first
 
 &nbsp;
 
