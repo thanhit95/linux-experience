@@ -59,8 +59,8 @@ Or edit config json file:
 
 - Theme:
   - teabyii - Ayu
-  - faceair - Ayu One Dark
   - binaryify - One Dark Pro
+  - Mahmoud Ali - Atom One Dark Theme
   - yomed - Dracula Soft Syntax Theme
 - Markdown:
   - yzhang - Markdown All in One
