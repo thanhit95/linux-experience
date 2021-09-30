@@ -23,6 +23,8 @@ sudo apt update
 Manjaro:
 
 ```shell
+# choose the best system mirrorlist
+sudo pacman-mirrors --fasttrack
 sudo pacman -Syy
 ```
 
@@ -141,6 +143,7 @@ Variety might not display its icon on topbar, to fix this:
 
 INTERNET BROWSERS:
 
+- Chrome.
 - Brave.
 - Firefox.
 
@@ -189,7 +192,7 @@ DISK DRIVE:
 UTILITIES:
 
 - PDF reader: Okular, Evince
-- Photos: gThumb
+- Photos: Eye of Gnome (eog), gThumb
 - System info: gnome-system-monitor, htop, neofetch
 - Archiver: peazip, unrar
 - Prevent computer from sleeping: caffeine
@@ -218,6 +221,18 @@ Read [dev.md](dev.md).
 
 ### POST CONFIGURATION
 
+- Manjaro:
+  - Avoid frustrating when user enters incorrect password for many times.
+    - First, have a look at the output from `cat /etc/pam.d/login` to make sure that you use `pam_faillock.so`.
+    - Edit file `/etc/security/faillock.conf`
+    - Set `deny = 0`
+
+- Set default apps:
+  - Web: Chrome
+  - Music, Video: VLC media player
+  - Photos: Eye of Gnome (Image Viewer)
+  - Text Dditor: mousepad (command: `xdg-mime default org.xfce.mousepad.desktop text/plain`)
+
 - Web browser:
   - Home page: turn off unwanted things.
   - Languages ⟶ spell checking: turn off.
@@ -230,8 +245,5 @@ Read [dev.md](dev.md).
       - Path: `code`
       - Param: `%B`
 
-- Manjaro:
-  - Avoid frustrating when user enters incorrect password for many times.
-    - First, have a look at the output from `cat /etc/pam.d/login` to make sure that you use `pam_faillock.so`.
-    - Edit file `/etc/security/faillock.conf`
-    - Set `deny = 0`
+- Libre Office:
+  - Disable spell checking (Tools ⟶ Automatic Spell Checking).
