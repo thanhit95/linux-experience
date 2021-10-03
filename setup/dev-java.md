@@ -34,29 +34,29 @@ $ ls /usr/lib/jvm/jdk-16
 bin  conf  include  jmods  legal  lib  release
 ```
 
-Tip. In case using more than one JDK (such as using both JDK-8 and JDK-16), we should make a symbolic link `default-jdk` that points to the default JDK.
+Tip. In case using more than one JDK (such as using both JDK-8 and JDK-16), we should make a symbolic link `jdk-default` that points to the default JDK.
 
 ```shell
 $ ls -l /usr/lib/jvm
 drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-16
 drwxr-xr-x 2 root root 4096 Aug 31 09:42 jdk-8
 
-$ sudo ln -s /usr/lib/jvm/jdk-16 default-jdk
+$ sudo ln -s /usr/lib/jvm/jdk-16 jdk-default
 
 $ ls -l /usr/lib/jvm
 drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-16
 drwxr-xr-x 2 root root 4096 Aug 31 09:42 jdk-8
-lrwxrwxrwx 1 root root   10 Aug 31 09:43 default-jdk -> /usr/lib/jvm/jdk-16
+lrwxrwxrwx 1 root root   10 Aug 31 09:43 jdk-default -> /usr/lib/jvm/jdk-16
 ```
 
 **Step 03.** Make `java` global executable.
 
-The purpose in detail: Make `/usr/lib/jvm/default-jdk/bin/java` global executable.
+The purpose in detail: Make `/usr/lib/jvm/jdk-default/bin/java` global executable.
 
 Edit file `/etc/environment`, add these lines:
 
 ```text
-JAVA_HOME=/usr/lib/jvm/default-jdk
+JAVA_HOME=/usr/lib/jvm/jdk-default
 PATH="$JAVA_HOME/bin:$PATH"
 ```
 
