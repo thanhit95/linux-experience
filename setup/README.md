@@ -96,12 +96,11 @@ For GNOME: Execute app "Extensions" and config as my taste.
 
 - Extension "Dash to Dock": Decrease size, make it transparent.
 
-For XFCE:
-
-To change font weight of theme, especial Thunar file manager, we need to edit or create file: `~/.config/gtk-3.0/gtk.css`.
+To change font weight of GTK theme, especial file manager, we need to edit or create file: `~/.config/gtk-3.0/gtk.css`.
 
 ```text
 * { font-weight: 500; }
+.nautilus * { font-weight: 500 }
 .thunar * { font-weight: 500 }
 XfdesktopIconView.view { font-weight: 500 }
 ```
@@ -231,7 +230,7 @@ Read [dev.md](dev.md).
   - Web: Chrome
   - Music, Video: VLC media player
   - Photos: Eye of Gnome (Image Viewer)
-  - Text Dditor: mousepad (command: `xdg-mime default org.xfce.mousepad.desktop text/plain`)
+  - Text Editor: mousepad (command: `xdg-mime default org.xfce.mousepad.desktop text/plain`)
 
 - Web browser:
   - Home page: turn off unwanted things.
