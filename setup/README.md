@@ -41,6 +41,8 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 Remove unwanted fonts:
 
 - Noto suite.
+- Adobe Source Han.
+- Terminus.
 
 &nbsp;
 
