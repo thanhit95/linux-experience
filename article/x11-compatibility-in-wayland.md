@@ -38,3 +38,11 @@ Symptom:
 To fix this, run the app with the command:
 
 `sudo dbus-launch app-name`
+
+&nbsp;
+
+## MISCELLANEOUS NOTES
+
+Find out which display server is being used:
+
+`echo $XDG_SESSION_TYPE`
