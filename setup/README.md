@@ -228,12 +228,6 @@ Read [dev.md](dev.md).
     - Edit file `/etc/security/faillock.conf`
     - Set `deny = 0`
 
-- Set default apps:
-  - Web: Chrome
-  - Music, Video: VLC media player
-  - Photos: Eye of Gnome (Image Viewer)
-  - Text Editor: mousepad (command: `xdg-mime default org.xfce.mousepad.desktop text/plain`)
-
 - Web browser:
   - Home page: turn off unwanted things.
   - Languages ⟶ spell checking: turn off.
@@ -248,3 +242,14 @@ Read [dev.md](dev.md).
 
 - Libre Office:
   - Disable spell checking (Tools ⟶ Automatic Spell Checking).
+
+- Settings:
+  - Set default apps:
+    - Web: Chrome
+    - Music, Video: VLC media player
+    - Photos: Eye of Gnome (Image Viewer)
+    - Text Editor: mousepad (command: `xdg-mime default org.xfce.mousepad.desktop text/plain`)
+  - Power:
+    - Blank Screen: Never
+    - Automatic Suspend: Off
+    - Power Button Behavior: Nothing
