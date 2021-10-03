@@ -27,7 +27,7 @@ sudo pacman -S zsh
 After installing, we might make zsh the default shell:
 
 ```shell
-sudo chsh -s $(which zsh)
+sudo chsh -s $(command -v zsh)
 ```
 
 Note: Restart (or logout) to take effects.
@@ -46,7 +46,7 @@ Follow instructions from this url:
 
 Note: Theme directory location: `~/.oh-my-zsh/custom/themes`.
 
-Clone repo into theme directory location: <https://github.com/romkatv/powerlevel10k>.
+Clone repo into theme directory location: <https://github.com/romkatv/powerlevel10k>
 
 After cloning, add this line into `~/.zshrc`:
 
