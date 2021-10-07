@@ -58,10 +58,13 @@ Or edit config json file:
 #### Extensions
 
 - Theme:
-  - teabyii - Ayu
-  - binaryify - One Dark Pro
-  - Mahmoud Ali - Atom One Dark Theme
-  - yomed - Dracula Soft Syntax Theme
+  - Color Theme:
+    - teabyii - Ayu
+    - binaryify - One Dark Pro
+    - Mahmoud Ali - Atom One Dark Theme
+    - yomed - Dracula Soft Syntax Theme
+  - Icon Theme:
+    - Philipp Kief - Material Icon Theme
 - Markdown:
   - yzhang - Markdown All in One
   - shd101wyy - Markdown Preview Enhanced
