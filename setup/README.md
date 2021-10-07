@@ -194,7 +194,7 @@ UTILITIES:
 
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (eog), gThumb
-- System info: gnome-system-monitor, htop, neofetch
+- System info: gnome-system-monitor, bpytop, htop, neofetch
 - Archiver: peazip, unrar
 - Prevent computer from sleeping: caffeine
 - Remote desktop: AnyDesk
@@ -205,6 +205,7 @@ UTILITIES:
 - Locate file fast: mlocate
   - Run command: `locate file-name`
   - Note: `sudo updatedb` first
+- Video thumbnail in Nautilus: ffmpeg and ffmpegthumbnailer
 
 &nbsp;
 
