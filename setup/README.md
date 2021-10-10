@@ -176,6 +176,7 @@ AUDIO AND VIDEO:
 - Player:
   - VLC media player
 - Audio:
+  - [Ocenaudio](https://www.ocenaudio.com/)
   - [Audacity](https://www.audacityteam.org)
   - [Kid3 Audio Tagger](https://kid3.kde.org/)
 - Video:
