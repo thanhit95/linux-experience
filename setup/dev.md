@@ -51,6 +51,12 @@ Or edit config json file:
 "files.trimTrailingWhitespace": true
 ```
 
+#### Config: Keyboard Shortcuts
+
+- Editor Font Zoom In: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>=</kbd>
+- Editor Font Zoom Out: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
+- Editor Font Zoom Reset: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd>
+
 #### Miscellaneous config
 
 - Editor font and terminal font.
