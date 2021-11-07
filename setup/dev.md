@@ -57,10 +57,6 @@ Or edit config json file:
 - Editor Font Zoom Out: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
 - Editor Font Zoom Reset: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd>
 
-#### Miscellaneous config
-
-- Editor font and terminal font.
-
 #### Extensions
 
 - Theme:
@@ -83,6 +79,20 @@ Or edit config json file:
   - trybick - Terminal Zoom
   - MoshFeu - Compare Folders
   - tomoki1207 - vscode-pdf
+
+#### Miscellaneous config
+
+- Editor font and terminal font.
+
+- Extensions: markdownlint:
+
+Disable "MD024: Multiple headings with the same content" by editing the `settings.json` file:
+
+```json
+"markdownlint.config": {
+    "MD024": false
+}
+```
 
 &nbsp;
 
