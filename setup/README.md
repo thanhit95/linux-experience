@@ -208,6 +208,12 @@ UTILITIES:
   - Note: `sudo updatedb` first
 - Video thumbnail in Nautilus: ffmpeg and ffmpegthumbnailer
 
+AUTHENTICATOR:
+
+- (Chrome extension) Authenticator
+  - Author: authenticator.cc
+  - [Link](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai)
+
 &nbsp;
 
 ### SHELL: ZSH
