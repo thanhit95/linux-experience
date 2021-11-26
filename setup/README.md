@@ -203,6 +203,7 @@ UTILITIES:
 - wine & winetricks
 - Clean disk: bleachbit
 - Nautilus context menu manager: filemanager-actions
+- Archiver: p7zip
 - Locate file fast: mlocate
   - Run command: `locate file-name`
   - Note: `sudo updatedb` first
