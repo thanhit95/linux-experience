@@ -41,7 +41,16 @@ systemd-analyze critical-chain
 
 ### Remove unnecessary packages
 
-Ubuntu:
+#### Common
+
+Clean journal (systemd / log):
+
+```shell
+journalctl --disk-usage
+sudo journalctl --vacuum-size=100M
+```
+
+#### Ubuntu
 
 ```shell
 sudo apt autoremove
@@ -50,14 +59,22 @@ sudo apt autoremove
 sudo apt clean
 ```
 
-Manjaro:
+#### Manjaro
+
+Clean package:
 
 ```shell
-# first, list all unnecessary packages
-pacman -Qtdq
+# clean cache
+sudo pacman -Sc
+sudo pamac clean --build-files
 
-# now, remove it
+# remove orphaned packages by pacman
+# try listing them first
+pacman -Qtdq
 sudo pacman -R $(pacman -Qtdq)
+
+# remove orphaned packages by pamac
+sudo pamac remove --orphans
 ```
 
 ### About applications
