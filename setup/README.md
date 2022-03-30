@@ -217,9 +217,11 @@ AUTHENTICATOR:
 
 &nbsp;
 
-### SHELL: ZSH
+### SHELL AND TERMINAL
 
 Read [zsh.md](zsh.md).
+
+Read [terminal.md](terminal.md).
 
 &nbsp;
 
