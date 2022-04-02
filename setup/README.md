@@ -174,7 +174,8 @@ GRAPHICS:
 AUDIO AND VIDEO:
 
 - Player:
-  - VLC media player
+  - VLC media player (`vlc`)
+  - SMPlayer (`smplayer`)
 - Audio:
   - [Ocenaudio](https://www.ocenaudio.com/)
   - [Audacity](https://www.audacityteam.org)
