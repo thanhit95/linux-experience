@@ -29,15 +29,11 @@ Config Shortcuts:
   - Toggle visibility: (blank)
   - Search terminal: Ctrl + Shift + F
 - Split management
-  - Split tab vertical: Ctrl + Alt + R
-  - Split tab horizontal: Ctrl + Alt + D
+  - Split tab vertical: Ctrl + Shift + P
+  - Split tab horizontal: Ctrl + Shift + O
   - Close terminal: Ctr + Shift + X
-  - Focus terminal above: Alt + Up
-  - Focus terminal below: Alt + Down
-  - Focus terminal on the left: Alt + Left
-  - Focus terminal on the right: Alt + Right
-  - Move the terminal split handle right: Ctrl + Shift + Right
-  - Move the terminal split handle left: Ctrl + Shift + Left
+  - Focus terminal on the left/right/above/below: Ctrl + Shift + [Left/Right/Up/Down]
+  - Move the terminal split handle left/right: Ctrl + Alt + [Left/Right]
 - Navigation
   - Go to previous tab: Ctrl + Page Up
   - Go to next tab: Ctrl + Page Down
@@ -48,11 +44,13 @@ Config Shortcuts:
   - Decrease height: Ctrl + Alt + ,
   - Increase transparency: Ctrl + Alt + L
   - Decrease transparency: Ctrl + Alt + K
-  - Toggle transparency: Ctrl + Alt + O
+  - Toggle transparency: Ctrl + Alt + ;
+  - Zoom in: Ctrl + = (or Ctrl + =)
+  - Zoom out: Ctrl + -
 
 ### Nautilus context menu
 
-Menu name: Open in Guake
+Menu name: Open Guake here
 
 - Command: `guake`
 - Command parameters: `--show -n 'NewTab' -e 'cd %f'`
@@ -74,9 +72,11 @@ Config shortcut in System Settings ⟶ Keyboard:
 - Command: `tilix`
 - Shortcut: Ctrl + Esc
 
+Config shortcuts: The same as Guake's shortcuts
+
 ### Nautilus context menu
 
-Menu name: Open in Guake
+Menu name: Open Tilix here
 
 - Command: `tilix`
 - Command parameters: `-w '%f'`
