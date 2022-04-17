@@ -33,7 +33,7 @@ Config Shortcuts:
   - Split tab horizontal: Ctrl + Shift + O
   - Close terminal: Ctr + Shift + X
   - Focus terminal on the left/right/above/below: Ctrl + Shift + [Left/Right/Up/Down]
-  - Move the terminal split handle left/right: Ctrl + Alt + [Left/Right]
+  - Move the terminal split handle left/right/up/down: Alt + Shift + [Left/Right/Up/Down]
 - Navigation
   - Go to previous tab: Ctrl + Page Up
   - Go to next tab: Ctrl + Page Down
