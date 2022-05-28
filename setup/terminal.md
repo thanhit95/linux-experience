@@ -28,6 +28,10 @@ Config Shortcuts:
 - General
   - Toggle visibility: (blank)
   - Search terminal: Ctrl + Shift + F
+- Tab management:
+  - New tab: Ctrl + T
+  - Close tab: Ctrl + W
+  - Rename current tab: Ctrl + Shift + R
 - Split management
   - Split tab vertical: Ctrl + Shift + P
   - Split tab horizontal: Ctrl + Shift + O
@@ -36,9 +40,13 @@ Config Shortcuts:
   - Move the terminal split handle left/right/up/down: Alt + Shift + [Left/Right/Up/Down]
 - Navigation
   - Go to previous tab: Ctrl + Page Up
-  - Go to next tab: Ctrl + Page Down
+  - Go to next tab: Ctrl + Page Down / Ctrl + Tab
   - Move current tab left: (blank)
   - Move current tab right: (blank)
+  - Page down: Shift + Page Down
+  - Page up: Shift + Page Up
+  - Scroll down: Page Down
+  - Scroll up: Page Up
 - Appearance
   - Increase height: Ctrl + Alt + .
   - Decrease height: Ctrl + Alt + ,
