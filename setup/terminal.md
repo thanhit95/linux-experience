@@ -29,8 +29,8 @@ Config Shortcuts:
   - Toggle visibility: (blank)
   - Search terminal: Ctrl + Shift + F
 - Tab management:
-  - New tab: Ctrl + T
-  - Close tab: Ctrl + W
+  - New tab (or new session): Ctrl + Shift + T
+  - Close tab (or close session): Ctrl + Shift + W
   - Rename current tab: Ctrl + Shift + R
 - Split management
   - Split tab vertical: Ctrl + Shift + P
