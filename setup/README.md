@@ -25,6 +25,9 @@ Manjaro:
 ```shell
 # choose the best system mirrorlist
 sudo pacman-mirrors --fasttrack
+# or using specific countries
+sudo pacman-mirrors --country Singapore,Philippines,Taiwan,China,South_Korea,Japan,Australia,Global
+
 sudo pacman -Syy
 ```
 
@@ -142,34 +145,43 @@ Variety might not display its icon on topbar, to fix this:
 
 ### PACKAGES
 
+BASE DEVELOPMENT
+
+```shell
+sudo pacman -S --needed base-devel
+```
+
 INTERNET BROWSERS:
 
-- Chrome.
-- Brave.
-- Firefox.
+- Chrome
+- Brave
+- Firefox
 
 FONTS:
 
 - List of fonts:
-  - Monospace: JetBrains Mono, Roboto Mono, Consolas.
-  - Noto suite (to support multiple languages).
-  - DejaVu suite (great display font).
-  - Droid suite (to support multiple languages, a lightweight alternative of Noto suite).
-  - Liberation suite (a "standard font suite" for many Linux distros).
-  - Sans: Source Sans Pro.
-  - Serif: Source Serif Pro.
+  - Monospace: JetBrains Mono, Roboto Mono, Consolas
+  - Noto suite (to support multiple languages)
+  - DejaVu suite (great display font)
+  - Droid suite (to support multiple languages, a lightweight alternative of Noto suite)
+  - Liberation suite (a "standard font suite" for many Linux distros)
+  - Sans: Source Sans Pro
+  - Serif: Source Serif Pro
+
+- Notes: After installing fonts, rebuild font cache: `fc-cache -f -v`
 
 - List of softwares:
-  - gnome-font-viewer.
-  - font-manager (<https://github.com/FontManager/font-manager>).
+  - gnome-font-viewer
+  - font-manager (<https://github.com/FontManager/font-manager>)
 
 OFFICE:
 
-- Libre Office.
+- Libre Office
 
 GRAPHICS:
 
-- GIMP.
+- GIMP
+- inkscape
 
 AUDIO AND VIDEO:
 
@@ -194,21 +206,22 @@ DISK DRIVE:
 
 UTILITIES:
 
+- Text editor: `mousepad`
 - PDF reader: Okular, Evince
-- Photos: Eye of Gnome (eog), gThumb
-- System info: gnome-system-monitor, bpytop, htop, neofetch
-- Archiver: peazip, unrar
+- Photos: Eye of Gnome (`eog`), gThumb
+- System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
+- Archiver: peazip, `unrar`
 - Prevent computer from sleeping: caffeine
 - Remote desktop: AnyDesk
 - Screen recorder: OBS, vokoscreenNG
 - wine & winetricks
-- Clean disk: bleachbit
-- Nautilus context menu manager: filemanager-actions
-- Archiver: p7zip
-- Locate file fast: mlocate
+- Clean disk: `bleachbit`
+- Nautilus context menu manager: `filemanager-actions`
+- Archiver: `p7zip`
+- Locate file fast: `mlocate`
   - Run command: `locate file-name`
   - Note: `sudo updatedb` first
-- Video thumbnail in Nautilus: ffmpeg and ffmpegthumbnailer
+- Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 
 AUTHENTICATOR:
 
