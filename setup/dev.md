@@ -110,3 +110,12 @@ Goto menu Windows ⟶ Preferences:
   - Check "Additional actions".
   - Click on button "Configure..."
     - Code Organizing ⟶ Formatter: Check "Remove trailing whitespace".
+
+&nbsp;
+
+### git
+
+```shell
+git config --global user.email "you@example.com"
+git config --global user.name "thanhit95"
+```
