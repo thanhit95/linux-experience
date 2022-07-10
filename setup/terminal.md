@@ -39,8 +39,8 @@ Config Shortcuts:
   - Focus terminal on the left/right/above/below: Ctrl + Shift + [Left/Right/Up/Down]
   - Move the terminal split handle left/right/up/down: Alt + Shift + [Left/Right/Up/Down]
 - Navigation
-  - Go to previous tab: Ctrl + Page Up
-  - Go to next tab: Ctrl + Page Down / Ctrl + Tab
+  - Go to previous tab (or previous session): Ctrl + Page Up
+  - Go to next tab (or next session): Ctrl + Page Down / Ctrl + Tab
   - Move current tab left: (blank)
   - Move current tab right: (blank)
   - Page down: Shift + Page Down
@@ -88,3 +88,9 @@ Menu name: Open Tilix here
 
 - Command: `tilix`
 - Command parameters: `-w '%f'`
+
+&nbsp;
+
+## MISCELLANEOUS
+
+- Terminal size: 100 (width) x 30 (height)
