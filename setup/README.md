@@ -248,7 +248,7 @@ Read [dev.md](dev.md).
 
 &nbsp;
 
-### POST CONFIGURATION
+### MISCELLANEOUS CONFIGURATIONS
 
 - Manjaro:
   - Avoid frustrating when user enters incorrect password for many times.
@@ -281,3 +281,37 @@ Read [dev.md](dev.md).
     - Blank Screen: Never
     - Automatic Suspend: Off
     - Power Button Behavior: Nothing
+
+&nbsp;
+
+### PERSONAL STUFF
+
+#### Global shell
+
+Create directory `$HOME/app/shscript`
+
+Create file `$HOME/.profile` with this contents:
+
+```shell
+export MYAPP_ROOT=$HOME/app
+export PATH="$MYAPP_ROOT/shscript:$PATH"
+```
+
+Create file `$HOME/.zprofile` with this contents:
+
+```shell
+source $HOME/.profile
+```
+
+#### Partition mounting
+
+`lsblk -o name,mountpoint,label,size,uuid` to get partition info.
+
+Edit file `/etc/fstab` by root, add these lines:
+
+```text
+# <file system> <mount point> <type>   <options>          <dump>  <pass>
+UUID=...        /d1            ntfs    defaults,noatime   0       0
+UUID=...        /d2            ntfs    defaults,noatime   0       0
+UUID=...        /lidata        ext4    defaults,noatime   0       0
+```
