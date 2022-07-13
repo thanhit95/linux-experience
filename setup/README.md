@@ -122,7 +122,7 @@ Read [x11-compatibility-in-wayland.md](/article/x11-compatibility-in-wayland.md)
 
 App: Variety.
 
-Homepage: <https://peterlevi.com/variety>.
+Homepage: <https://peterlevi.com/variety>
 
 **Notes for Manjaro GNOME:**
 
@@ -136,7 +136,10 @@ sudo pacman -S python-pip
 
 Variety might not display its icon on topbar, to fix this:
 
-- Make sure the GNOME extension "AppIndicator" was turned on.
+- Make sure the GNOME extension "AppIndicator" was installed
+  - Link: <https://extensions.gnome.org/extension/615/appindicator-support>
+  - Extract compressed file to `$HOME/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com`
+  - Turn on the extension
 - Run Variety with `GDK_BACKEND=x11`:
   - `GDK_BACKEND=x11 variety`, or
   - `env GDK_BACKEND=x11 variety`
