@@ -209,22 +209,23 @@ DISK DRIVE:
 
 UTILITIES:
 
-- Text editor: `mousepad`
+- Text editor: `mousepad`, `gedit`
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (`eog`), gThumb
 - System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
 - Archiver: peazip, `unrar`
+- Nautilus context menu manager: `filemanager-actions`
+- Archiver: `p7zip`
+- Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
+- List directory/file tree: `tree`
 - Prevent computer from sleeping: caffeine
 - Remote desktop: AnyDesk
 - Screen recorder: OBS, vokoscreenNG
 - wine & winetricks
 - Clean disk: `bleachbit`
-- Nautilus context menu manager: `filemanager-actions`
-- Archiver: `p7zip`
 - Locate file fast: `mlocate`
   - Run command: `locate file-name`
   - Note: `sudo updatedb` first
-- Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 
 AUTHENTICATOR:
 
