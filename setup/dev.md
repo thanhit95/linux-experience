@@ -96,6 +96,29 @@ Disable "MD024: Multiple headings with the same content" by editing the `setting
 
 &nbsp;
 
+### NetBeans
+
+Edit file `netbeans-XX/netbeans/etc/netbeans.conf` where `netbeans-XX` is installed NetBeans directory. Add options into `netbeans_default_options`:
+
+- To change font size: `-J-Dawt.useSystemAAFontSettings=on --fontsize 14`
+- Other options: `-J-Dsun.java2d.dpiaware=false -J-Dsun.java2d.uiScale=1`
+
+Menu Tools ⟶ Options
+
+- Editor ⟶ Formatting:
+  - Language: All Languages
+  - Tab size: 4
+- Editor ⟶ On Save:
+  - Language: All Languages
+  - Reformat: All Lines
+  - Remove Trailing Whitespace From: All Lines
+- Fonts & Colors:
+  - Font: JetBrains Mono 16
+- Appearance:
+  - Document Tabs: Enable Multi-row tabs: Max row count: 2
+
+&nbsp;
+
 ### Eclipse
 
 Goto menu Windows ⟶ Preferences:
