@@ -43,13 +43,17 @@ Read [dev-java.md](dev-java.md).
 
 Goto File ⟶ Preferences ⟶ Settings ⟶ User Settings.
 
-Search for and check config "Files: Trim Trailing Whitespace".
-
-Or edit config json file:
+Search for and check config "Files: Trim Trailing Whitespace"; Or edit config json file:
 
 ```text
 "files.trimTrailingWhitespace": true
 ```
+
+#### Config: Smooth scrolling
+
+Goto File ⟶ Preferences ⟶ Settings ⟶ User Settings.
+
+Config name: `Workbench ⟶ List: Smooth Scrolling`
 
 #### Config: Keyboard Shortcuts
 
