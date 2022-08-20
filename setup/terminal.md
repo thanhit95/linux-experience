@@ -73,6 +73,19 @@ Menu name: Open Guake here
 sudo pacman -S tilix
 ```
 
+### Troubleshooting
+
+If Tilix shows error related to configs when we open it:
+
+- Make a symlink: `ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh`
+- Add source to bashrc / zshrc:
+
+```text
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte.sh
+fi
+```
+
 ### Config
 
 Config shortcut in System Settings ⟶ Keyboard:
