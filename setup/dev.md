@@ -49,6 +49,12 @@ Search for and check config "Files: Trim Trailing Whitespace"; Or edit config js
 "files.trimTrailingWhitespace": true
 ```
 
+#### Config: Title Bar Custom Style
+
+Goto File ⟶ Preferences ⟶ Settings ⟶ User Settings.
+
+Config: `Window: Title Bar Style` ⟶ Set value = `native`
+
 #### Config: Smooth scrolling
 
 Goto File ⟶ Preferences ⟶ Settings ⟶ User Settings.
