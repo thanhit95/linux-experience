@@ -75,6 +75,7 @@ Config name: `Workbench ⟶ List: Smooth Scrolling`
     - binaryify - One Dark Pro
     - Mahmoud Ali - Atom One Dark Theme
     - yomed - Dracula Soft Syntax Theme
+    - Dracula Theme - Dracula Official
   - Icon Theme:
     - Philipp Kief - Material Icon Theme
 - Markdown:
