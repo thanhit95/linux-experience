@@ -210,10 +210,11 @@ DISK DRIVE:
 UTILITIES:
 
 - Text editor: `mousepad`, `gedit`
+- Archiver: `7z`, peazip, `unrar`
+- Clipboard tool: `wl-clipboard`
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (`eog`), gThumb
 - System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
-- Archiver: peazip, `unrar`
 - Nautilus context menu manager: `filemanager-actions`
 - Archiver: `p7zip`
 - Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
