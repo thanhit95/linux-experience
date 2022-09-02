@@ -215,7 +215,7 @@ UTILITIES:
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (`eog`), gThumb
 - System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
-- Nautilus context menu manager: `filemanager-actions`
+- Nautilus context menu manager: [`actions-for-nautilus`](./actions-for-nautilus) (deprecated: `filemanager-actions`)
 - Archiver: `p7zip`
 - Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 - List directory/file tree: `tree`
@@ -263,12 +263,9 @@ Read [dev.md](dev.md).
   - Languages ⟶ spell checking: turn off.
 
 - File manager:
-  - Note: If you use Nautilus, you should install `filemanager-actions`.
   - Add peazip to context menu.
   - Add VS Code to context menu.
-    - `filemanager-actions` command:
-      - Path: `code`
-      - Param: `%B`
+  - References: [actions-for-nautilus](./actions-for-nautilus)
 
 - Libre Office:
   - Disable spell checking (Tools ⟶ Automatic Spell Checking).

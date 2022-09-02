@@ -1,0 +1,19 @@
+{
+	"actions": [
+	    {
+			"type": "command",
+			"label": "Open in VS Code",
+			"command_line": "code %F"
+		},
+		{
+			"type": "command",
+			"label": "Open in gedit",
+			"filetypes": [
+				"!directory",
+				"standard"
+			],
+			"command_line": "gedit %F"
+		}
+	],
+	"debug": false
+}
