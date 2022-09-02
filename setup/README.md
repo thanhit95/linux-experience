@@ -296,7 +296,7 @@ Create file `$HOME/.profile` with this contents:
 
 ```shell
 export MYAPP_ROOT=$HOME/app
-export PATH="$MYAPP_ROOT/shscript:$PATH"
+export PATH="$MYAPP_ROOT:$MYAPP_ROOT/shscript:$JDK_HOME/bin:$PATH"
 ```
 
 Create file `$HOME/.zprofile` with this contents:
