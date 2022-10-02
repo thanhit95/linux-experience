@@ -13,6 +13,14 @@
 				"standard"
 			],
 			"command_line": "gedit %F"
+		},
+		{
+			"type": "command",
+			"label": "Paste as symlink",
+			"filetypes": [
+				"directory"
+			],
+			"command_line": "mkclipln %f"
 		}
 	],
 	"debug": false
