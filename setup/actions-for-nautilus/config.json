@@ -20,7 +20,7 @@
 			"filetypes": [
 				"directory"
 			],
-			"command_line": "mkclipln %f"
+			"command_line": "mkclipln %F"
 		}
 	],
 	"debug": false
