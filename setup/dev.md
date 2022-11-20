@@ -111,7 +111,10 @@ Disable "MD024: Multiple headings with the same content" by editing the `setting
 
 Edit file `netbeans-XX/netbeans/etc/netbeans.conf` where `netbeans-XX` is installed NetBeans directory. Add options into `netbeans_default_options`:
 
-- To change font size: `-J-Dawt.useSystemAAFontSettings=on --fontsize 14`
+- To change font size:
+  - `-J-Dawt.useSystemAAFontSettings=on` or `-J-Dawt.useSystemAAFontSettings=lcd`
+  - `--fontsize 14`
+  - `-J-Dswing.aatext=true`
 - Other options: `-J-Dsun.java2d.dpiaware=false -J-Dsun.java2d.uiScale=1`
 
 Menu Tools ⟶ Options
