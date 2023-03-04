@@ -224,6 +224,7 @@ UTILITIES:
 - Screen recorder: OBS, vokoscreenNG
 - wine & winetricks
 - Clean disk: `bleachbit`
+- Photo management and enhancement: `darktable`
 - Locate file fast: `mlocate`
   - Run command: `locate file-name`
   - Note: `sudo updatedb` first
