@@ -179,6 +179,8 @@ sudo pacman -S texlive-most texlive-bin
 
 Install extension: LaTeX Workshop by James Yu ([ref](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop))
 
+The reason is that I find out that `VS Code with LaTeX Workshop` provides me with a great tool that has rich features such as auto-complete, auto-build, preview in real time, modern user interface, syntax highlighting, and more.
+
 #### Common settings
 
 ```text
@@ -186,7 +188,7 @@ Install extension: LaTeX Workshop by James Yu ([ref](https://marketplace.visuals
 "latex-workshop.latex.watch.pdf.delay": 500,
 ```
 
-When turn off `autoBuild` setting, I prefer hotkey `Ctrl + Alt + B` to build manually (defined in `@command:latex-workshop.build`)
+When turning off `autoBuild` setting, I prefer the hotkey `Ctrl + Alt + B` to build manually (defined in `@command:latex-workshop.build`)
 
 #### Settings: Temporary output directories
 
@@ -206,7 +208,7 @@ Here is my working latex directories:
         └── img2.svg
 ```
 
-Each time compiling, it produces some temporary files in the same `project_name` directory, which makes me confusing like this:
+Each time the tool compiles, it produces some temporary files in the same `project_name` directory, which makes me confused like this:
 
 ```text
 └── project_name_A
@@ -219,13 +221,13 @@ Each time compiling, it produces some temporary files in the same `project_name`
     └── main.synctex.gz
 ```
 
-So I decide to change temporary directory by the setting:
+So I decide to change the temporary directory by setting:
 
 ```text
 "latex-workshop.latex.outDir": "%DIR%/../ztmp_latex/%RELATIVE_DIR%"
 ```
 
-where `%DIR%` refers to the absolute project directory path (`/home/me/Documents/project_name_A`) and `%RELATIVE_DIR%` refers to the name of project directory (`project_name_A`).
+where `%DIR%` refers to the absolute project directory path (`/home/me/Documents/project_name_A`) and `%RELATIVE_DIR%` refers to the name of the project directory (`project_name_A`).
 
 The final project directory template should be:
 
