@@ -173,6 +173,7 @@ Manjaro
 
 ```shell
 sudo pacman -S texlive-most texlive-bin
+# Choose packages: texlive-core,texlive-fontsextra,texlive-formatsextra,texlive-bibtexextra,texlive-latexextra,texlive-pictures,texlive-publishers,texlive-science
 ```
 
 ### Development environment - VS Code
