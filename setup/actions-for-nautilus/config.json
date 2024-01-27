@@ -7,12 +7,28 @@
 		},
 		{
 			"type": "command",
+			"label": "Open with Tilix",
+			"filetypes": [
+				"directory"
+			],
+			"command_line": "tilix -w %f"
+		},
+		{
+			"type": "command",
 			"label": "Open in gedit",
 			"filetypes": [
 				"!directory",
 				"standard"
 			],
 			"command_line": "gedit %F"
+		},
+		{
+			"type": "command",
+			"label": "Make tar for this directory",
+			"filetypes": [
+				"directory"
+			],
+			"command_line": "mkdirtar %F"
 		},
 		{
 			"type": "command",

@@ -2,6 +2,19 @@
 
 ## CONTENT
 
+### Increase download speed of package managers
+
+Fedora:
+
+Edit file `/etc/dnf/dnf.conf`, add 2 lines:
+
+```text
+max_parallel_downloads=8
+fastestmirror=True
+```
+
+And then `sudo dnf upgrade --refresh`
+
 ### Disable unimportant services
 
 Disable and stop/mask these services:
