@@ -24,19 +24,19 @@
 		},
 		{
 			"type": "command",
-			"label": "Make tar for this directory",
-			"filetypes": [
-				"directory"
-			],
-			"command_line": "mkdirtar %F"
-		},
-		{
-			"type": "command",
 			"label": "Paste as symlink",
 			"filetypes": [
 				"directory"
 			],
 			"command_line": "mkclipln %F"
+		},
+		{
+			"type": "command",
+			"label": "Make tar for this directory",
+			"filetypes": [
+				"directory"
+			],
+			"command_line": "mkdirtar %F"
 		}
 	],
 	"debug": false
