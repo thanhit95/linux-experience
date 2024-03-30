@@ -12,6 +12,12 @@ From [howtogeek](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you
 
 ### Step 01. Install zsh
 
+Fedora:
+
+```shell
+sudo dnf install zsh
+```
+
 Ubuntu:
 
 ```shell
