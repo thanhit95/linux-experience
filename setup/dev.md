@@ -154,7 +154,16 @@ Goto menu Windows ⟶ Preferences:
 
 ```shell
 git config --global user.email "you@example.com"
-git config --global user.name "thanhit95"
+git config --global user.name "thanh"
+
+# Exist 2 files: ed25519_git and ed25519_git.pub
+ssh-add $HOME/.ssh/ed25519_git
+# Double check by these 2 commands:
+ssh-add -L
+ssh -vT git@github.com
+# Output:
+# Server accepts key: you@example.com ED25519 SHA256:dasduiasdyuas/dwdsa/dasodasdasuhddfsahiudhasui agent
+# Authenticated to github.com ([30.210.277.104]:22) using "publickey"
 ```
 
 ---
