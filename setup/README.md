@@ -211,6 +211,8 @@ UTILITIES:
 
 - Text editor: `mousepad`, `gedit`
 - Archiver: `7z`, peazip, `unrar`
+- File/dir diff comparison tool: [meld](https://meldmerge.org)
+- Hex editor: Okteta
 - Clipboard tool: `wl-clipboard`
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (`eog`), gThumb
