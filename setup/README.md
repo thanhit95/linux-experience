@@ -283,6 +283,10 @@ Read [dev.md](dev.md).
     - Blank Screen: Never
     - Automatic Suspend: Off
     - Power Button Behavior: Nothing
+    - Lid-closing behaviour (systemd):
+      - Edit this file using root: `/etc/systemd/logind.conf`
+      - Set config `HandleLidSwitch=ignore` (may uncomment the line first)
+      - Restart computer
 
 &nbsp;
 
