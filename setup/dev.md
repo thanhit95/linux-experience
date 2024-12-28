@@ -4,8 +4,6 @@
 
 ### C/C++
 
-#### Ubuntu
-
 ```shell
 # FEDORA
 sudo dnf groupinstall c-development
@@ -25,20 +23,7 @@ sudo pacman -S gcc gdb make
 sudo pacman -S --needed base-devel
 ```
 
-#### Manjaro
-
-```shell
-
-```
-
-#### General
-
-Extra libs:
-
-```text
-libboost-all-dev
-libpoco-dev
-```
+Extra libs: `libboost-all-dev libpoco-dev`
 
 &nbsp;
 
@@ -76,6 +61,8 @@ Config name: `Workbench ⟶ List: Smooth Scrolling`
 
 #### Config: Keyboard Shortcuts
 
+- Go back: <kbd>Alt</kbd> + <kbd>Left</kbd>
+- Go forward: <kbd>Alt</kbd> + <kbd>Right</kbd>
 - Editor Font Zoom In: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>=</kbd>
 - Editor Font Zoom Out: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>-</kbd>
 - Editor Font Zoom Reset: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd>

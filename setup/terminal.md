@@ -5,55 +5,62 @@
 ### Install
 
 ```shell
+# UBUNTU
+sudo dnf install guake
+
+# MANJARO
 sudo pacman -S guake
 ```
 
 ### Config
 
-Config shortcut in System Settings ⟶ Keyboard:
+Hotkey in System Settings ⟶ Keyboard:
 
 - Command: `guake -t`
 - Shortcut: Alt + Esc
 
-Config General:
+Startup:
 
 - Start Guake at login
 
-Config Main Window:
+Configurations (Preferences):
 
-- Geometry: Increase height
+- Main Window:
+  - Geometry: Increase height
 
-Config Shortcuts:
+- Keyboard shortcuts:
+  - General
+    - Toggle visibility: (blank)
+    - Search terminal: Ctrl + Shift + F
+  - Tab management:
+    - New tab (or new session): Ctrl + Shift + T
+    - Close tab (or close session): Ctrl + Shift + W
+  - Split management
+    - Split tab vertical: Ctrl + Shift + P
+    - Split tab horizontal: Ctrl + Shift + O
+    - Close terminal: Ctr + Shift + X
+    - Focus terminal on the left/right/above/below: Ctrl + Shift + [Left/Right/Up/Down]
+    - Move the terminal split handle left/right/up/down: Alt + Shift + [Left/Right/Up/Down]
+  - Navigation
+    - Go to previous tab (or previous session): Ctrl + Page Up
+    - Go to next tab (or next session): Ctrl + Page Down / Ctrl + Tab
+    - Move current tab left: (blank)
+    - Move current tab right: (blank)
+    - Page down: Shift + Page Down
+    - Page up: Shift + Page Up
+    - Scroll down: Page Down
+    - Scroll up: Page Up
+  - Appearance
+    - Increase height: Ctrl + Alt + .
+    - Decrease height: Ctrl + Alt + ,
+    - Increase transparency: Ctrl + Alt + L
+    - Decrease transparency: Ctrl + Alt + K
+    - Toggle transparency: Ctrl + Alt + ;
+    - Zoom in: Ctrl + = (or Ctrl + =)
+    - Zoom out: Ctrl + -
 
-- General
-  - Toggle visibility: (blank)
-  - Search terminal: Ctrl + Shift + F
-- Tab management:
-  - New tab (or new session): Ctrl + Shift + T
-  - Close tab (or close session): Ctrl + Shift + W
-- Split management
-  - Split tab vertical: Ctrl + Shift + P
-  - Split tab horizontal: Ctrl + Shift + O
-  - Close terminal: Ctr + Shift + X
-  - Focus terminal on the left/right/above/below: Ctrl + Shift + [Left/Right/Up/Down]
-  - Move the terminal split handle left/right/up/down: Alt + Shift + [Left/Right/Up/Down]
-- Navigation
-  - Go to previous tab (or previous session): Ctrl + Page Up
-  - Go to next tab (or next session): Ctrl + Page Down / Ctrl + Tab
-  - Move current tab left: (blank)
-  - Move current tab right: (blank)
-  - Page down: Shift + Page Down
-  - Page up: Shift + Page Up
-  - Scroll down: Page Down
-  - Scroll up: Page Up
-- Appearance
-  - Increase height: Ctrl + Alt + .
-  - Decrease height: Ctrl + Alt + ,
-  - Increase transparency: Ctrl + Alt + L
-  - Decrease transparency: Ctrl + Alt + K
-  - Toggle transparency: Ctrl + Alt + ;
-  - Zoom in: Ctrl + = (or Ctrl + =)
-  - Zoom out: Ctrl + -
+- Apperance:
+  - (Color theme) Built-in scheme: Highway or Dimmed Monokai or Harper
 
 ### Nautilus context menu
 
@@ -69,6 +76,10 @@ Menu name: Open Guake here
 ### Install
 
 ```shell
+# UBUNTU
+sudo dnf install tilix
+
+# MANJARO
 sudo pacman -S tilix
 ```
 
@@ -87,22 +98,21 @@ fi
 
 ### Config
 
-Config shortcut in System Settings ⟶ Keyboard:
+Hotkey in System Settings ⟶ Keyboard:
 
 - Command: `tilix`
 - Shortcut: Ctrl + Esc
 
-Config shortcuts: The same as Guake's shortcuts
+Configurations (Preferences):
 
-### Nautilus context menu
-
-Menu name: Open Tilix here
-
-- Command: `tilix`
-- Command parameters: `-w '%f'`
+- The same as Guake's shortcuts
+- Apperance:
+  - Color theme: Orchis
 
 &nbsp;
 
 ## MISCELLANEOUS
 
 - Terminal size: 100 (width) x 30 (height)
+
+- New terminal in GNOME: command `ptyxis`

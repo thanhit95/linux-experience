@@ -12,21 +12,14 @@ From [howtogeek](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you
 
 ### Step 01. Install zsh
 
-Fedora:
-
 ```shell
+# FEDORA
 sudo dnf install zsh
-```
 
-Ubuntu:
-
-```shell
+# UBUNTU
 sudo apt install zsh
-```
 
-Manjaro:
-
-```shell
+# MANJARO
 sudo pacman -S zsh
 ```
 

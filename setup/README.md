@@ -228,7 +228,7 @@ Read [dev.md](dev.md).
 
 ### MISCELLANEOUS CONFIGURATIONS
 
-- Manjaro:
+- Fedora/Manjaro:
   - Avoid frustrating when user enters incorrect password for many times.
     - First, have a look at the output from `cat /etc/pam.d/login` to make sure that you use `pam_faillock.so`.
     - Edit file `/etc/security/faillock.conf`
@@ -239,8 +239,7 @@ Read [dev.md](dev.md).
   - Languages ⟶ spell checking: turn off.
 
 - File manager:
-  - Add peazip to context menu.
-  - Add VS Code to context menu.
+  - Add entries into context menu in Nautilus.
   - References: [actions-for-nautilus](./actions-for-nautilus)
 
 - Libre Office:
