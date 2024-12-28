@@ -14,20 +14,20 @@ Depend on each section, there are some specific files in this repo which guide y
 
 Update package information from Internet.
 
-Ubuntu:
+Fedora:
 
 ```shell
+# FEDORA
+sudo dnf update
+
+# UBUNTU
 sudo apt update
-```
 
-Manjaro:
-
-```shell
+# MANJARO
 # choose the best system mirrorlist
 sudo pacman-mirrors --fasttrack
 # or using specific countries
 sudo pacman-mirrors --country Singapore,Philippines,Taiwan,China,South_Korea,Japan,Australia,Global
-
 sudo pacman -Syy
 ```
 
@@ -85,36 +85,14 @@ Note: Goto system settings.
 
 &nbsp;
 
-### DESKTOP ENVIRONMENT AND THEME
+### PACKAGE MANAGER
 
-Theme:
-
-- Theme directory location:
-  - Global: `/usr/share/themes`
-  - Local: `~/.themes`
-
-- Icon directory location:
-  - Global: `/usr/share/icons`
-  - Local: `~/.icons`
-
-For GNOME: Execute app "Extensions" and config as my taste.
-
-- Extension "Dash to Dock": Decrease size, make it transparent.
-
-To change font weight of GTK theme, especial file manager, we need to edit or create file: `~/.config/gtk-3.0/gtk.css`.
+Fedora: Edit file `/etc/dnf/dnf.conf`
 
 ```text
-* { font-weight: 500; }
-.nautilus * { font-weight: 500 }
-.thunar * { font-weight: 500 }
-XfdesktopIconView.view { font-weight: 500 }
+fastestmirror=True
+max_parallel_downloads=10
 ```
-
-&nbsp;
-
-### X11 COMPATIBILITY IN WAYLAND
-
-Read [x11-compatibility-in-wayland.md](/article/x11-compatibility-in-wayland.md).
 
 &nbsp;
 
@@ -128,31 +106,25 @@ Homepage: <https://peterlevi.com/variety>
 
 To run Variety correctly, we run it in terminal to see all output messages.
 
-Before installing Variety, we must install its dependencies:
-
-```shell
-sudo pacman -S python-pip
-```
+Before installing Variety, we may install its dependencies: package `python-pip`
 
 Variety might not display its icon on topbar, to fix this:
 
-- Make sure the GNOME extension "AppIndicator" was installed
+- Make sure the GNOME app `Extensions` was installed
+  - Fedora: `sudo dnf install gnome-extensions-app`
+- Check GNOME shell version: `gnome-shell --version`
+- Download GNOME extension "AppIndicator" that matches the GNOME shell version
   - Link: <https://extensions.gnome.org/extension/615/appindicator-support>
-  - Extract compressed file to `$HOME/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com`
-  - Turn on the extension
-- Run Variety with `GDK_BACKEND=x11`:
+  - Extract compressed file. Note the `uuid` field in the `metadata.json`, it will be the name of directory of the extension
+  - Move extracted data to `$HOME/.local/share/gnome-shell/extensions/appindicatorsupport@rgcjonas.gmail.com`
+  - Turn on the extension via app `Extensions` (may need to logout/login)
+- (Optional) Run Variety with `GDK_BACKEND=x11`:
   - `GDK_BACKEND=x11 variety`, or
   - `env GDK_BACKEND=x11 variety`
 
 &nbsp;
 
 ### PACKAGES
-
-BASE DEVELOPMENT
-
-```shell
-sudo pacman -S --needed base-devel
-```
 
 INTERNET BROWSERS:
 
@@ -168,10 +140,10 @@ FONTS:
   - DejaVu suite (great display font)
   - Droid suite (to support multiple languages, a lightweight alternative of Noto suite)
   - Liberation suite (a "standard font suite" for many Linux distros)
-  - Sans: Source Sans Pro
-  - Serif: Source Serif Pro
+  - Sans: Source Sans
+  - Serif: Source Serif
 
-- Notes: After installing fonts, rebuild font cache: `fc-cache -f -v`
+- Note: After installing fonts, rebuild font cache: `fc-cache -f -v`
 
 - List of softwares:
   - gnome-font-viewer
@@ -210,7 +182,9 @@ DISK DRIVE:
 UTILITIES:
 
 - Text editor: `mousepad`, `gedit`
-- Archiver: `7z`, peazip, `unrar`
+- Editor (cmd): `vim`
+- Archiver: `file-roller`, peazip
+- Archiver (cmdline): `p7zip` or `7z`, `unrar`
 - File/dir diff comparison tool: [meld](https://meldmerge.org)
 - Hex editor: Okteta
 - Clipboard tool: `wl-clipboard`
@@ -218,7 +192,6 @@ UTILITIES:
 - Photos: Eye of Gnome (`eog`), gThumb
 - System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
 - Nautilus context menu manager: [`actions-for-nautilus`](./actions-for-nautilus) (deprecated: `filemanager-actions`)
-- Archiver: `p7zip`
 - Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 - List directory/file tree: `tree`
 - Prevent computer from sleeping: caffeine
@@ -287,6 +260,39 @@ Read [dev.md](dev.md).
       - Edit this file using root: `/etc/systemd/logind.conf`
       - Set config `HandleLidSwitch=ignore` (may uncomment the line first)
       - Restart computer
+
+&nbsp;
+
+### DESKTOP ENVIRONMENT AND THEME
+
+Theme:
+
+- Theme directory location:
+  - Global: `/usr/share/themes`
+  - Local: `~/.themes`
+
+- Icon directory location:
+  - Global: `/usr/share/icons`
+  - Local: `~/.icons`
+
+For GNOME: Execute app "Extensions" and config as my taste.
+
+- Extension "Dash to Dock": Decrease size, make it transparent.
+
+To change font weight of GTK theme, especial file manager, we need to edit or create file: `~/.config/gtk-3.0/gtk.css`.
+
+```text
+* { font-weight: 500; }
+.nautilus * { font-weight: 500 }
+.thunar * { font-weight: 500 }
+XfdesktopIconView.view { font-weight: 500 }
+```
+
+&nbsp;
+
+### X11 COMPATIBILITY IN WAYLAND
+
+Read [x11-compatibility-in-wayland.md](/article/x11-compatibility-in-wayland.md).
 
 &nbsp;
 

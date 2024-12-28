@@ -2,20 +2,33 @@
 
 ## LIBRARIES AND SOFTWARE DEVELOPMENT KITS
 
-### C++
+### C/C++
 
 #### Ubuntu
 
 ```shell
+# FEDORA
+sudo dnf groupinstall c-development
+# or with additional tools
+sudo dnf groupinstall c-development development-tools
+
+
+# UBUNTU
 sudo apt install gcc g++ gdb make
 # or
 sudo apt install build-essential
+
+
+# MANJARO
+sudo pacman -S gcc gdb make
+# or
+sudo pacman -S --needed base-devel
 ```
 
 #### Manjaro
 
 ```shell
-sudo pacman -S gcc gdb make
+
 ```
 
 #### General

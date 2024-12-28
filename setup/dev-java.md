@@ -28,25 +28,25 @@ Expected result (if I use JDK 16):
 
 ```shell
 $ ls /usr/lib/jvm
-jdk-16
+jdk-21
 
-$ ls /usr/lib/jvm/jdk-16
+$ ls /usr/lib/jvm/jdk-21
 bin  conf  include  jmods  legal  lib  release
 ```
 
-Tip. In case using more than one JDK (such as using both JDK-8 and JDK-16), we should make a symbolic link `jdk-default` that points to the default JDK.
+Tip. In case using more than one JDK (such as using both JDK-8 and JDK-21), we should make a symbolic link `jdk-default` that points to the default JDK.
 
 ```shell
 $ ls -l /usr/lib/jvm
-drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-16
+drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-21
 drwxr-xr-x 2 root root 4096 Aug 31 09:42 jdk-8
 
-$ sudo ln -s /usr/lib/jvm/jdk-16 jdk-default
+$ sudo ln -s /usr/lib/jvm/jdk-21 jdk-default
 
 $ ls -l /usr/lib/jvm
-drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-16
+drwxr-xr-x 2 root root 4096 Aug 31 09:38 jdk-21
 drwxr-xr-x 2 root root 4096 Aug 31 09:42 jdk-8
-lrwxrwxrwx 1 root root   10 Aug 31 09:43 jdk-default -> /usr/lib/jvm/jdk-16
+lrwxrwxrwx 1 root root   10 Aug 31 09:43 jdk-default -> /usr/lib/jvm/jdk-21
 ```
 
 **Step 03.** Make `java` global executable.
