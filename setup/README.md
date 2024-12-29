@@ -185,8 +185,6 @@ UTILITIES:
 - Editor (cmd): `vim`
 - Archiver: `file-roller`, peazip
 - Archiver (cmdline): `p7zip` or `7z`, `unrar`
-- File/dir diff comparison tool: [meld](https://meldmerge.org)
-- Hex editor: Okteta
 - Clipboard tool: `wl-clipboard`
 - PDF reader: Okular, Evince
 - Photos: Eye of Gnome (`eog`), gThumb
@@ -194,6 +192,9 @@ UTILITIES:
 - Nautilus context menu manager: [`actions-for-nautilus`](./actions-for-nautilus) (deprecated: `filemanager-actions`)
 - Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 - List directory/file tree: `tree`
+- `openssl`
+- File/dir diff comparison tool: [meld](https://meldmerge.org)
+- Hex editor: Okteta
 - Prevent computer from sleeping: caffeine
 - Remote desktop: AnyDesk
 - Screen recorder: OBS, vokoscreenNG
@@ -304,8 +305,10 @@ Create directory `$HOME/app/shscript`
 Create file `$HOME/.profile` with this contents:
 
 ```shell
-export MYAPP_ROOT=$HOME/app
-export PATH="$MYAPP_ROOT:$MYAPP_ROOT/shscript:$JDK_HOME/bin:$PATH"
+export JAVA_HOME=....
+export GRADLE_HOME=...
+export MYAPP_SH_HOME=$HOME/app/sh
+export PATH="$MYAPP_SH_HOME:$JAVA_HOME/bin:$GRADLE_HOME/bin:$PATH"
 ```
 
 Create file `$HOME/.zprofile` with this contents:

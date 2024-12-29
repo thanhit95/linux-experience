@@ -80,7 +80,7 @@ Config name: `Workbench ⟶ List: Smooth Scrolling`
     - Philipp Kief - Material Icon Theme
 - Markdown:
   - yzhang - Markdown All in One
-  - shd101wyy - Markdown Preview Enhanced
+  - shd101wyy (Yiyi Wang) - Markdown Preview Enhanced
   - David Anson - markdownlint
 - Web:
   - ritwickdey - Live Server
