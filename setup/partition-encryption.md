@@ -195,7 +195,8 @@ sudo cryptsetup --verbose open --test-passphrase $MY_DEV_CRYPT
 # Method 1
 sudo cryptsetup luksDump $MY_DEV_CRYPT
 # Method 2
-sudo cryptsetup luksDump <path_to_dump_file>
+# <path_to_dump_header_file> can be $MY_PARTITION_LABEL.luks2.bin
+sudo cryptsetup luksDump <path_to_dump_header_file>
 
 
 # Output example:
