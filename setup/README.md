@@ -190,9 +190,10 @@ UTILITIES:
 - Photos: Eye of Gnome (`eog`), gThumb
 - System monitor & info: `gnome-system-monitor`, `bpytop`, `htop`, `neofetch`
 - Nautilus context menu manager: [`actions-for-nautilus`](./actions-for-nautilus) (deprecated: `filemanager-actions`)
-- Video thumbnail in Nautilus: `ffmpeg` and `ffmpegthumbnailer`
 - List directory/file tree: `tree`
-- `openssl`
+- Encryption: `openssl`
+- Multimedia: `ffmpeg`, `ffmpeg-libs` (`sudo dnf install --allowerasing ffmpeg-libs`)
+- Nautilus video thumbnail generation: `ffmpegthumbnailer`
 - File/dir diff comparison tool: [meld](https://meldmerge.org)
 - Hex editor: Okteta
 - Prevent computer from sleeping: caffeine
