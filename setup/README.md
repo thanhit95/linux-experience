@@ -192,7 +192,8 @@ UTILITIES:
 - Nautilus context menu manager: [`actions-for-nautilus`](./actions-for-nautilus) (deprecated: `filemanager-actions`)
 - List directory/file tree: `tree`
 - Encryption: `openssl`
-- Multimedia: `ffmpeg`, `ffmpeg-libs` (`sudo dnf install --allowerasing ffmpeg-libs`)
+- Multimedia: `ffmpeg`, `ffmpeg-libs`
+  - Fedora: `sudo dnf install --allowerasing ffmpeg ffmpeg-libs x265-libs libde265`
 - Nautilus video thumbnail generation: `ffmpegthumbnailer`
 - File/dir diff comparison tool: [meld](https://meldmerge.org)
 - Hex editor: Okteta
