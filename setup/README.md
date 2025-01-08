@@ -195,6 +195,7 @@ UTILITIES:
 - Multimedia: `ffmpeg`, `ffmpeg-libs`
   - Fedora: `sudo dnf install --allowerasing ffmpeg ffmpeg-libs x265-libs libde265`
 - Nautilus video thumbnail generation: `ffmpegthumbnailer`
+- Dconf editor: `dconf-editor`
 - File/dir diff comparison tool: [meld](https://meldmerge.org)
 - Hex editor: Okteta
 - Prevent computer from sleeping: caffeine
