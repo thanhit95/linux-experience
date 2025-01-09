@@ -119,20 +119,28 @@ sudo cryptsetup luksAddKey $MY_DEV_CRYPT ./enc-key.key
 
 Edit file `/etc/crypttab` and add a line:
 ```text
-# Syntax
+# Use Syntax1 or Syntax2
+# Syntax1: Auto-mounting using a key file
 <MY_DEVMP_CRYPT_NAME> UUID=<uuid_of_luks_wrapper_partition> <key_file_path> luks,noauto,discard
+# Syntax2: Auto-mounting but it requires the user to enter passphrase during booting OS
+<MY_DEVMP_CRYPT_NAME> UUID=<uuid_of_luks_wrapper_partition> none            discard
 
 # Example
 m_encdata UUID=9736256c-2bc3-48f1-b3e0-5921b9e2bc1b /home/user/enc-key.key luks,noauto,discard
+luks-b1c8 UUID=75d77918-c9cb-4dab-88d4-66a3d73cb1c8 none                   discard
 ```
 
 Edit file `/etc/fstab` and add a line:
 ```text
-# Syntax
+# Use Syntax1 or Syntax2
+# Syntax1
 /dev/mapper/<MY_DEVMP_CRYPT_NAME>    <MY_MOUNTED_PATH>    ext4    auto,rw,async,nouser    0 0
+# Syntax2
+UUID=<uuid_of_inner_partition>       <MY_MOUNTED_PATH>    ext4    auto,rw,async,nouser    0 0
 
 # Example
-/dev/mapper/m_encdata    /mnt/encdata    ext4    auto,rw,async,nouser    0 0
+/dev/mapper/m_encdata                     /mnt/encdata    ext4    auto,rw,async,nouser    0 0
+UUID=e1f4d677-f2a7-4a85-b80b-5815f527342a /home           ext4    defaults                0 0
 ```
 
 &nbsp;
