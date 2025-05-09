@@ -68,6 +68,8 @@ Config name: `Workbench ⟶ List: Smooth Scrolling`
 - Editor Font Zoom Reset: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd>
 - editor.action.transformToLowercase: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>L</kbd>
 - editor.action.transformToUppercase: <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>U</kbd>
+- cursorHome: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PageUp</kbd>
+- cursorEnd: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PageDown</kbd>
 
 #### Extensions
 

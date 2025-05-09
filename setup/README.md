@@ -233,6 +233,11 @@ Read [dev.md](dev.md).
 ### MISCELLANEOUS CONFIGURATIONS
 
 - Fedora/Manjaro:
+  - Prevent suspend when lid close.
+    - Edit file `/usr/lib/systemd/logind.conf` (remember to backup first), set 3 config lines:
+      - HandleLidSwitch=ignore
+      - HandleLidSwitchExternalPower=ignore
+      - HandleLidSwitchDocked=ignore
   - Avoid frustrating when user enters incorrect password for many times.
     - First, have a look at the output from `cat /etc/pam.d/login` to make sure that you use `pam_faillock.so`.
     - Edit file `/etc/security/faillock.conf`
