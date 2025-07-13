@@ -201,7 +201,19 @@ sudo cryptsetup --verbose open --test-passphrase $MY_DEV_CRYPT
 
 ```shell
 sudo cryptsetup luksAddKey $MY_DEV_CRYPT
-# Need to enter a valid passphrase first to process
+# Need to enter a valid passphrase first to continuing the progress
+```
+
+**Remove a key slot in an existing partition**
+
+Importance: You must identify the **correct key slot** to remove. You should run `sudo cryptsetup luksDump $MY_DEV_CRYPT` first to checkout all key slots.
+
+```shell
+# Syntax
+sudo cryptsetup -v luksKillSlot $MY_DEV_CRYPT <key_slot_number>
+
+# Example: Remove key slot number 1
+sudo cryptsetup -v luksKillSlot $MY_DEV_CRYPT 1
 ```
 
 **Dump info of the wrapper partition**
