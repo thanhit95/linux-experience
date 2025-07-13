@@ -189,12 +189,19 @@ sudo cryptsetup luksOpen --test-passphrase --key-slot 0 $MY_DEV_CRYPT && echo co
 
 Method 2:
 
-```
+```shell
 sudo cryptsetup --verbose open --test-passphrase $MY_DEV_CRYPT
 
 # Output:
 # Enter passphrase for /dev/nvme0n1p5:
 # Key slot 2 unlocked.
+```
+
+**Add a passphrase into an existing partition**
+
+```shell
+sudo cryptsetup luksAddKey $MY_DEV_CRYPT
+# Need to enter a valid passphrase first to process
 ```
 
 **Dump info of the wrapper partition**
